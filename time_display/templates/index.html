@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">    
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="hora offset-4 p-3 mt-5">
+            <h3 class="text-center">La hora actual es:</h3>
+            <h1 class="text-center">{{ hour }}</h1>
+            <h3 class="text-center">La fecha actual es:</h3>
+            <h1 class="text-center">{{ date }}</h1>
+        </div>
+    </div>
+</body>
+</html>
