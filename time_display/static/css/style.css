@@ -1,6 +1,7 @@
 .hora{
-    background-color: aqua;
-    border-radius: 5px;
-    width:500px;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    width: 500px;
     border: 2px solid black;
 }
